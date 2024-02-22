@@ -98,16 +98,16 @@ export const Img = styled.img`
   height: 100%;
   max-width: 315px;
   max-height: 470px;
-  border-radius: 45%;
+  border-radius: 10%;
   border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 335px;
+    max-height: 410px;
   }
 
   @media (max-width: 640px) {
-    max-width: 280px;
+    max-width: 200px;
     max-height: 280px;
   }
 `;
